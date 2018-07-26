@@ -43,6 +43,7 @@ var checkPastLimit = function(limiter, item) {
 
 // console.log(arr4);
 
+//really nice function - solution to not have to use bind over and over
 var checkPastLimiteSimplified = function(limiter) {
 	return function(limiter, item) {
 		return item > limiter;
